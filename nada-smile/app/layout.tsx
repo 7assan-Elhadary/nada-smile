@@ -1,3 +1,0 @@
-import type {Metadata} from "next"; import "./globals.css"; import Shell from "@/components/Shell";
-export const metadata:Metadata={icons:{icon:"/brand/assets/favicon.png"},title:{default:"Nada Smile — Dental Clinic",template:"%s | Nada Smile"},description:"Modern dental care designed around comfort, clarity, and your individual smile.",metadataBase:new URL(process.env.NEXT_PUBLIC_SITE_URL||"http://localhost:3000"),openGraph:{title:"Nada Smile — Dental Clinic",description:"Your smile, our priority.",type:"website"}};
-export default function Layout({children}:{children:React.ReactNode}){return <Shell>{children}</Shell>}
